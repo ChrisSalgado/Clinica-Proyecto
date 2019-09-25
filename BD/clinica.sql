@@ -18,6 +18,11 @@ insert into users values ('admin', 'abc123','admin','admin','Administrator','adm
 insert into users values ('Chris','unodostres','Christopher','Salgado','developer','cristopher.salgado1997@gmail.com')
 insert into users values ('DonBosco', 'salesiano','Juanito','Bosco','cura','donbosco@gmail.com')
 
-select * from users
+select * from users where LoginName = 'admin' and password = 'abc123'
+
+declare @user nvarchar(100)='admin'
+declare @pass nvarchar(100)='abc123'
+select * from users where LoginName=@user and password = @pass
+
 
 drop table users

@@ -1,0 +1,9 @@
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Clinica.exe.config
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Clinica.exe
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Clinica.pdb
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.Properties.Resources.resources
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.exe
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.pdb
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.FrmLogin.resources

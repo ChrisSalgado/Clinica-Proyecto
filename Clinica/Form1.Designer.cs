@@ -1,4 +1,4 @@
-﻿namespace Clinica
+﻿namespace Presentacion
 {
     partial class FrmLogin
     {
@@ -38,6 +38,7 @@
             this.linkPass = new System.Windows.Forms.LinkLabel();
             this.btnCerrar = new System.Windows.Forms.Label();
             this.btnMinimizar = new System.Windows.Forms.Label();
+            this.lblErrorMessage = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -83,7 +84,7 @@
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtContraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.DimGray;
-            this.txtContraseña.Location = new System.Drawing.Point(297, 138);
+            this.txtContraseña.Location = new System.Drawing.Point(297, 126);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(416, 27);
             this.txtContraseña.TabIndex = 2;
@@ -111,12 +112,13 @@
             this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.ForeColor = System.Drawing.Color.LightGray;
-            this.btnLogin.Location = new System.Drawing.Point(297, 216);
+            this.btnLogin.Location = new System.Drawing.Point(297, 181);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(416, 40);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "ACCEDER";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // linkPass
             // 
@@ -124,7 +126,7 @@
             this.linkPass.AutoSize = true;
             this.linkPass.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkPass.LinkColor = System.Drawing.Color.DimGray;
-            this.linkPass.Location = new System.Drawing.Point(425, 284);
+            this.linkPass.Location = new System.Drawing.Point(425, 304);
             this.linkPass.Name = "linkPass";
             this.linkPass.Size = new System.Drawing.Size(182, 17);
             this.linkPass.TabIndex = 0;
@@ -155,12 +157,25 @@
             this.btnMinimizar.Text = "_";
             this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
+            // lblErrorMessage
+            // 
+            this.lblErrorMessage.AutoSize = true;
+            this.lblErrorMessage.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorMessage.ForeColor = System.Drawing.Color.White;
+            this.lblErrorMessage.Location = new System.Drawing.Point(297, 262);
+            this.lblErrorMessage.Name = "lblErrorMessage";
+            this.lblErrorMessage.Size = new System.Drawing.Size(36, 17);
+            this.lblErrorMessage.TabIndex = 8;
+            this.lblErrorMessage.Text = "Error";
+            this.lblErrorMessage.Visible = false;
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(780, 330);
+            this.Controls.Add(this.lblErrorMessage);
             this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.linkPass);
@@ -175,6 +190,7 @@
             this.Opacity = 0.97D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "INICIAR SESIÓN";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FrmLogin_MouseDown);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -194,6 +210,7 @@
         private System.Windows.Forms.Label btnCerrar;
         private System.Windows.Forms.Label btnMinimizar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblErrorMessage;
     }
 }
 

@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Domain;
 
-namespace Clinica
+namespace Presentacion
 {
     public partial class FrmLogin : Form
     {
@@ -83,6 +84,57 @@ namespace Clinica
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (TxtUsuario.Text != "USUARIO")
+            {
+                if (txtContraseña.Text != "CONTRASEÑA")
+                {
+                    //si los campos no estan vacios, instanciamos 
+                    //al modelo usuario de la capa de dominio.
+                    UserModel user = new UserModel();
+                    //DECLARAMOS UNA VARIABLE IMPLICITA DE NOMBRE LOGINVALIDO
+
+                    var validLogin = user.LoginUser(TxtUsuario.Text, txtContraseña.Text); //asignamos como valor el resultado que retorna el metodo de iniciar sesión de la capa de dominio
+                      //si el inicio de sesión es verdadero, instanciamos al formulario que queremos ir  
+                    if (validLogin == true)
+                    {
+                        FrmPrincipal mainMenu = new FrmPrincipal();
+                        mainMenu.Show();
+                        this.Hide();
+                    }else
+                    {
+                        msgError("Usuario o contraseña incorrectos. \n Prueba otra vez.");
+                        txtContraseña.Clear();
+                        TxtUsuario.Focus();
+                    }
+
+
+
+
+
+                }else
+                {
+                    msgError("Porfavor, ingrese una contraseña");
+                }
+            }else
+            {
+                msgError("¡Por favor, digite un usuario!");
+            }
+        }
+
+        //metodo para mostrar un mensaje de error por si los cuadros de texto quedan vacios
+        private void msgError(string msg)
+        {
+            lblErrorMessage.Text = "" + msg;
+            lblErrorMessage.Visible = true;
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

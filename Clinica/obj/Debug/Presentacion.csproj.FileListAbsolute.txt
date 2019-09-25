@@ -11,3 +11,4 @@ C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.Properties.Reso
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Presentacion.csproj.GenerateResource.Cache
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.exe
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.pdb
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Presentacion.frmPrincipal.resources

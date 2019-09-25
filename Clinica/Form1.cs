@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Domain;
-using Clinica;
 
 namespace Presentacion
 {
@@ -102,8 +101,8 @@ namespace Presentacion
                       //si el inicio de sesión es verdadero, instanciamos al formulario que queremos ir  
                     if (validLogin == true)
                     {
-                        //frmPrincipal mainMenu = new frmPrincipal();
-                        // mainMenu.Show();
+                        frmPrincipal mainMenu = new frmPrincipal();
+                        mainMenu.Show();
                         this.Hide();
                     }else
                     {

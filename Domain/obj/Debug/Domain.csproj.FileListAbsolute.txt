@@ -5,3 +5,5 @@ C:\Users\DELL\Desktop\proyecto\Clinica\Domain\bin\Debug\DataAccess.pdb
 C:\Users\DELL\Desktop\proyecto\Clinica\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\DELL\Desktop\proyecto\Clinica\Domain\obj\Debug\Domain.dll
 C:\Users\DELL\Desktop\proyecto\Clinica\Domain\obj\Debug\Domain.pdb
+C:\Users\DELL\Desktop\proyecto\Clinica\Domain\bin\Debug\Common.dll
+C:\Users\DELL\Desktop\proyecto\Clinica\Domain\bin\Debug\Common.pdb

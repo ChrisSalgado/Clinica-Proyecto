@@ -3,3 +3,5 @@ C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\DataAccess.pdb
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\Common.dll
+C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\Common.pdb

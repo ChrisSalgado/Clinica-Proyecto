@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Domain;
+using Common.Cache;
 
 namespace Presentacion
 {
@@ -66,6 +67,7 @@ namespace Presentacion
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
+            if(MessageBox.Show("¿Estas seguro/a de querer cerrar la aplicación?", "Warning!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             Application.Exit();
         }
 
@@ -102,12 +104,14 @@ namespace Presentacion
                     if (validLogin == true)
                     {
                         frmPrincipal mainMenu = new frmPrincipal();
+                        MessageBox.Show("Bienvenido " + UserLoginCache.FirstName);//mensaje de bienvenida
                         mainMenu.Show();
+                        mainMenu.FormClosed += Logout;
                         this.Hide();
                     }else
                     {
                         msgError("Usuario o contraseña incorrectos. \n Prueba otra vez.");
-                        txtContraseña.Clear();
+                        txtContraseña.Text = "CONTRASEÑA";
                         TxtUsuario.Focus();
                     }
 
@@ -123,10 +127,21 @@ namespace Presentacion
 
         //metodo para mostrar un mensaje de error por si los cuadros de texto quedan vacios
         private void msgError(string msg)
-        {
+        { 
             lblErrorMessage.Text = "" + msg;
             lblErrorMessage.Visible = true;
         }
+
+        private void Logout(object sender, FormClosedEventArgs e)
+        {
+            txtContraseña.Text = "CONTRASEÑA";
+            txtContraseña.UseSystemPasswordChar = false;
+            TxtUsuario.Text = "USUARIO";
+            lblErrorMessage.Visible = false;
+            this.Show();
+           // TxtUsuario.Focus();
+        }
+
 
         private void FrmLogin_Load(object sender, EventArgs e)
         {

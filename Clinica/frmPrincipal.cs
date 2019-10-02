@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Domain;
 using Common.Cache;
+using Clinica;
 
 namespace Presentacion
 {
@@ -102,6 +103,12 @@ namespace Presentacion
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmAgregar add = new frmAgregar();
+            add.Show();
         }
     }
 

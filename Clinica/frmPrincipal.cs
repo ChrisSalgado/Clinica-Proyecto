@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using Domain;
 using Common.Cache;
 
 namespace Presentacion
@@ -18,29 +20,89 @@ namespace Presentacion
             InitializeComponent();
         }
 
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
+
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            LoadUserData();
+            LoadUserData(); 
         }
-
-        //creamos un metodo para cargar el usuario 
         private void LoadUserData()
         {
-            //el valor capturado en los atributos de la clase UserLoginCache de la capa common, se le asignan al Label correspondiente
-            //DE ESTA MANERA PODEMOS TENER ESTOS CAMPOS DE CUALQUIER FORMULARIO O CAPA SIN LA NECESIDAD DE PASAR POR
-            //PARAMETROS (ASI EVITAMOS PASAR EL ID POR PARAMETROS DE METODOS O CONSTRUCTORES) ESTO LA FORMA DE TENER SEGURIDAD POR METODO DE CAPAS
-
             lblNombre.Text = UserLoginCache.FirstName + ", " + UserLoginCache.LastName;
             lblPosicion.Text = UserLoginCache.Position;
             lblCorreo.Text = UserLoginCache.Email;
-
         }
-
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Estas seguro/a de querer cerrar Sesión?", "Warning!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if(MessageBox.Show("Estas seguro de Cerrar Sesión?", "WARNING",MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
                 this.Close();
+                
+            }
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmLogin());
+        }
+
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if(activeForm != null)
+            {
+                activeForm.Close();
+                activeForm = childForm;
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
+                panelChildForm.Controls.Add(childForm);
+                childForm.BringToFront();
+                childForm.Show();
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void panelChildForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void panelChildForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
+
 }

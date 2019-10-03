@@ -56,11 +56,51 @@ namespace DataAccess
                         return false; //si retorna false es porque la consulta no existe
                         
                     }
+                }
+            }
+        }
+        public string recoverPassword(string userRequesting)
+        {
+            using (var connection = GetConnection())
+            {
+                connection.Open();
+                using (var command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandText = "select * from users  where LoginName=@user or Email=@mail";
+                    command.Parameters.AddWithValue("@user", userRequesting);
+                    command.Parameters.AddWithValue("@mail", userRequesting);
+                    command.CommandType = CommandType.Text;
+                    SqlDataReader reader = command.ExecuteReader();
 
+                    if(reader.Read() == true)
+                    {
+                        string userName = reader.GetString(3) + ", " + reader.GetString(4);
+                        string userMail = reader.GetString(6);
+                        string accountPassword = reader.GetString(2);
+                        List<String> listMail = new List<string>();
+                        listMail.Add(userMail);
 
+                        var mailService = new MailServices.SystemSupportMail();
+                        mailService.sendMail(
+                            subject: "system: solicitud de recuperación de contraseña",
+                            body: "Hola, " + userName + "\nTU SOLICITUD DE RECUPERACIÓN DE CONTRASEÑA \n" + 
+                            "TU CONTRASEÑA ACTUAL ES: " + accountPassword + 
+                            "\nPor lo tanto, te pedimos que cambies tu contraseña inmediatamente una vez entres al sistema. ",
+                            recipientMail:  new List<string> { userMail }
+                            );
+                        return "Hola, " + userName + "\nSolicitaste recuperar tu contraseña \n" +
+                            "por favor revisa tu correo: " + userMail +
+                            "\nSinembargo, te pedimos que cambies tu contraseña inmediatamente una vez entres al sistema. ";
+
+                    }else
+                    {
+                        return "Lo sentimos, no tiene una cuenta con éste nombre de usuario o correo electronico.";
+                    }
 
                 }
             }
         }
+
     }
 }

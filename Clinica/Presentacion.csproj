@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRecoverPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRecoverPassword.Designer.cs">
+      <DependentUpon>FormRecoverPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAgregar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRecoverPassword.resx">
+      <DependentUpon>FormRecoverPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAgregar.resx">
       <DependentUpon>frmAgregar.cs</DependentUpon>

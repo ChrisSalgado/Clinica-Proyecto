@@ -109,7 +109,9 @@ namespace Presentacion
         {
             frmAgregar add = new frmAgregar();
             add.Show();
+            
         }
+
     }
 
 }

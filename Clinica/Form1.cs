@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Domain;
 using Common.Cache;
+using Clinica;
 
 namespace Presentacion
 {
@@ -146,6 +147,13 @@ namespace Presentacion
         private void FrmLogin_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void linkPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var recoverPassword = new FormRecoverPassword();
+            recoverPassword.ShowDialog(); 
+
         }
     }
 }

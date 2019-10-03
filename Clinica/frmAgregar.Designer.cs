@@ -38,6 +38,7 @@
             this.MinimumSize = new System.Drawing.Size(668, 474);
             this.Name = "frmAgregar";
             this.Text = "frmAgregar";
+            this.Load += new System.EventHandler(this.frmAgregar_Load);
             this.ResumeLayout(false);
 
         }

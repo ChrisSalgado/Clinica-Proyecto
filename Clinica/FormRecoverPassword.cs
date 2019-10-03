@@ -7,22 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Domain;
 
 namespace Clinica
 {
-    public partial class frmAgregar : Form
+    public partial class FormRecoverPassword : Form
     {
-        public frmAgregar()
+        public FormRecoverPassword()
         {
             InitializeComponent();
         }
 
-        private void frmAgregar_Load(object sender, EventArgs e)
+        private void btnSend_Click(object sender, EventArgs e)
         {
-
+            var user = new UserModel();
+            var result = user.recoverPassword(txtUserRequest.Text);
+            lblResultado.Text = result;
         }
-
-       
-
     }
 }

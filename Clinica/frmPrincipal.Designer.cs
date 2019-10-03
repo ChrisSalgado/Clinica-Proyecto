@@ -40,6 +40,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panelChildForm.SuspendLayout();
@@ -49,6 +50,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(145)))), ((int)(((byte)(176)))));
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
@@ -128,7 +130,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(0, 280);
+            this.button3.Location = new System.Drawing.Point(0, 298);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(200, 36);
             this.button3.TabIndex = 2;
@@ -144,7 +146,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 238);
+            this.button2.Location = new System.Drawing.Point(0, 256);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(203, 36);
             this.button2.TabIndex = 1;
@@ -160,7 +162,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 196);
+            this.button1.Location = new System.Drawing.Point(0, 214);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 36);
             this.button1.TabIndex = 0;
@@ -187,6 +189,22 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(163)))), ((int)(((byte)(153)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(63)))), ((int)(((byte)(97)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 172);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(200, 36);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "INVENTARIO";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // frmPrincipal
             // 
@@ -222,5 +240,6 @@
         private System.Windows.Forms.Label lblCorreo;
         private System.Windows.Forms.Label lblPosicion;
         private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Button button5;
     }
 }

@@ -37,7 +37,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(127, 47);
+            this.label1.Location = new System.Drawing.Point(233, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 13);
             this.label1.TabIndex = 0;
@@ -45,14 +45,14 @@
             // 
             // txtUserRequest
             // 
-            this.txtUserRequest.Location = new System.Drawing.Point(130, 77);
+            this.txtUserRequest.Location = new System.Drawing.Point(236, 75);
             this.txtUserRequest.Name = "txtUserRequest";
             this.txtUserRequest.Size = new System.Drawing.Size(268, 20);
             this.txtUserRequest.TabIndex = 1;
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(323, 115);
+            this.btnSend.Location = new System.Drawing.Point(429, 113);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(75, 23);
             this.btnSend.TabIndex = 2;
@@ -63,7 +63,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(127, 185);
+            this.lblResultado.Location = new System.Drawing.Point(233, 183);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(55, 13);
             this.lblResultado.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 250);
+            this.ClientSize = new System.Drawing.Size(700, 250);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtUserRequest);

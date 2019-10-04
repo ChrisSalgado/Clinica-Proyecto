@@ -58,6 +58,9 @@
             this.panel1.SuspendLayout();
 
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogo)).BeginInit();
+
+
+
             this.SuspendLayout();
             // 
             // panel1
@@ -71,7 +74,8 @@
             this.panel1.Controls.Add(this.picBoxLogo);
             this.panel1.Controls.Add(this.btnAgregar);
             this.panel1.Controls.Add(this.btnEditar);
-            this.panel1.Controls.Add(this.button4);
+
+this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.btnInventario);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -288,6 +292,18 @@
             this.panelChildForm.Size = new System.Drawing.Size(638, 474);
             this.panelChildForm.TabIndex = 1;
 
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Location = new System.Drawing.Point(153, 118);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(359, 212);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+
+
             // button4
             // 
             this.button4.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -389,6 +405,25 @@
             this.picBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxLogo.TabIndex = 0;
             this.picBoxLogo.TabStop = false;
+
+
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(163)))), ((int)(((byte)(153)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(63)))), ((int)(((byte)(97)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 172);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(200, 36);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "INVENTARIO";
+            this.button5.UseVisualStyleBackColor = true;
+
             // 
 
             // frmPrincipal
@@ -408,7 +443,9 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
 
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxLogo)).EndInit();
+
+
+
             this.ResumeLayout(false);
 
         }

@@ -12,6 +12,27 @@ C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Presentacion.csproj.Gen
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.exe
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.pdb
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Presentacion.frmPrincipal.resources
+
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Common.dll
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Common.pdb
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.FormRecoverPassword.resources
+
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\bin\Debug\Clinica.exe.config
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\bin\Debug\Clinica.exe
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\bin\Debug\Clinica.pdb
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\bin\Debug\Domain.dll
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\bin\Debug\DataAccess.dll
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\bin\Debug\Domain.pdb
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\bin\Debug\DataAccess.pdb
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Presentacion.FrmLogin.resources
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Presentacion.frmPrincipal.resources
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.Properties.Resources.resources
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.exe
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.pdb
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.frmInventario.resources
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.frmAgregar.resources
+

@@ -3,5 +3,14 @@ C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\DataAccess.pdb
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\obj\Debug\DataAccess.pdb
+
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\Common.dll
 C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\Common.pdb
+
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\obj\Debug\DataAccess.pdb
+

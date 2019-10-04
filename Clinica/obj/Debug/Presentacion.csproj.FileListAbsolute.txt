@@ -14,5 +14,4 @@ C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.pdb
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Presentacion.frmPrincipal.resources
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Common.dll
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Common.pdb
-C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.frmAgregar.resources
 C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.FormRecoverPassword.resources

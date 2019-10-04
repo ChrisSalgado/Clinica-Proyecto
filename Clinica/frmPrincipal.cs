@@ -13,9 +13,7 @@ using Domain;
 using Common.Cache;
 using Clinica;
 
-using Clinica;
 
- Formularios-
 
 namespace Presentacion
 {
@@ -95,6 +93,9 @@ namespace Presentacion
         }
 
         private void panelChildForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
 
         private void BtnEditar_Click(object sender, EventArgs e)
 
@@ -117,24 +118,19 @@ namespace Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmAgregar add = new frmAgregar();
-            add.Show();
+
             
         }
 
 
         private void BtnInventario_Click(object sender, EventArgs e)
         {
-            frmInventario verfrmInventario = new frmInventario();
-            verfrmInventario.Show();
-            this.Hide();
+            
         }
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
-            frmAgregar verfrmAgregar = new frmAgregar();
-            verfrmAgregar.Show();
-            this.Hide();
+
         }
 
     }

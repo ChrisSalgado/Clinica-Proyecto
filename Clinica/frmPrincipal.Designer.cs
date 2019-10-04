@@ -396,7 +396,6 @@ this.panel1.Controls.Add(this.button4);
             // 
             // picBoxLogo
             // 
-            this.picBoxLogo.Image = global::Clinica.Properties.Resources.pizap_com15699762370901;
             this.picBoxLogo.Location = new System.Drawing.Point(0, 3);
             this.picBoxLogo.Name = "picBoxLogo";
             this.picBoxLogo.Size = new System.Drawing.Size(197, 137);

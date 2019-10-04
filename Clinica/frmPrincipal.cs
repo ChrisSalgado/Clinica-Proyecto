@@ -150,6 +150,7 @@ namespace Presentacion
 
         }
 
+
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
         }
@@ -171,6 +172,9 @@ namespace Presentacion
     //        frmAgregar verfrmAgregar = new frmAgregar();
      //       verfrmAgregar.Show();
      //       this.Hide();
+
+        
+
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {

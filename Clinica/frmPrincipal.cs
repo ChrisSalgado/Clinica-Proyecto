@@ -7,10 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using System.Runtime.InteropServices;
 using Domain;
 using Common.Cache;
 using Clinica;
+
+using Clinica;
+
+ Formularios-
 
 namespace Presentacion
 {
@@ -78,6 +83,7 @@ namespace Presentacion
             Application.Exit();
         }
 
+
         private void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -89,9 +95,13 @@ namespace Presentacion
         }
 
         private void panelChildForm_Paint(object sender, PaintEventArgs e)
+
+        private void BtnEditar_Click(object sender, EventArgs e)
+
         {
 
         }
+
 
         private void panel3_MouseDown(object sender, MouseEventArgs e)
         {
@@ -110,6 +120,21 @@ namespace Presentacion
             frmAgregar add = new frmAgregar();
             add.Show();
             
+        }
+
+
+        private void BtnInventario_Click(object sender, EventArgs e)
+        {
+            frmInventario verfrmInventario = new frmInventario();
+            verfrmInventario.Show();
+            this.Hide();
+        }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAgregar verfrmAgregar = new frmAgregar();
+            verfrmAgregar.Show();
+            this.Hide();
         }
 
     }

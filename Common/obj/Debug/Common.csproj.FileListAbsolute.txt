@@ -1,5 +1,0 @@
-C:\Users\DELL\Desktop\proyecto\Clinica\Common\bin\Debug\Common.dll
-C:\Users\DELL\Desktop\proyecto\Clinica\Common\bin\Debug\Common.pdb
-C:\Users\DELL\Desktop\proyecto\Clinica\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
-C:\Users\DELL\Desktop\proyecto\Clinica\Common\obj\Debug\Common.dll
-C:\Users\DELL\Desktop\proyecto\Clinica\Common\obj\Debug\Common.pdb

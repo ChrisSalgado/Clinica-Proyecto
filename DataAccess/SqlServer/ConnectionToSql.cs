@@ -16,7 +16,7 @@ namespace DataAccess
 
         public ConnectionToSql()
         {
-            connectionString = "Server=LAPTOP-1VL3UP2E; DataBase=clinicaP; integrated security= true";
+            connectionString = "Server=LAPTOP; DataBase=clinicaP; integrated security= true";
         }
 
         //metodo para obtener la conexión

@@ -78,7 +78,7 @@
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(0, 172);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(200, 36);
+            this.button5.Size = new System.Drawing.Size(228, 36);
             this.button5.TabIndex = 5;
             this.button5.Text = "INVENTARIO";
             this.button5.UseVisualStyleBackColor = true;
@@ -137,7 +137,7 @@
             this.btnUsuarios.ForeColor = System.Drawing.Color.White;
             this.btnUsuarios.Location = new System.Drawing.Point(-3, 292);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(203, 36);
+            this.btnUsuarios.Size = new System.Drawing.Size(231, 36);
             this.btnUsuarios.TabIndex = 5;
             this.btnUsuarios.Text = "USUARIOS";
             this.btnUsuarios.UseVisualStyleBackColor = true;
@@ -162,7 +162,7 @@
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
             this.btnAgregar.Location = new System.Drawing.Point(3, 208);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(200, 36);
+            this.btnAgregar.Size = new System.Drawing.Size(225, 36);
             this.btnAgregar.TabIndex = 4;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -179,7 +179,7 @@
             this.btnEditar.ForeColor = System.Drawing.Color.White;
             this.btnEditar.Location = new System.Drawing.Point(0, 250);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(203, 36);
+            this.btnEditar.Size = new System.Drawing.Size(228, 36);
             this.btnEditar.TabIndex = 1;
             this.btnEditar.Text = "EDITAR";
             this.btnEditar.UseVisualStyleBackColor = true;

@@ -36,3 +36,7 @@ C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.pdb
 C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.frmInventario.resources
 C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Clinica\obj\Debug\Clinica.frmAgregar.resources
 
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\obj\Debug\Clinica.FormRecoverPassword.resources
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Common.dll
+C:\Users\DELL\Desktop\proyecto\Clinica\Clinica\bin\Debug\Common.pdb
+

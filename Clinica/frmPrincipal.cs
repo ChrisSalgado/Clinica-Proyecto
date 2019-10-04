@@ -17,6 +17,9 @@ using Clinica;
 
 
 
+
+
+
 namespace Presentacion
 {
     public partial class frmPrincipal : Form
@@ -107,6 +110,10 @@ namespace Presentacion
 
 
 
+
+       
+
+
         private void panel3_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
@@ -134,6 +141,7 @@ namespace Presentacion
 
         }
 
+
         private void BtnInventario_Click(object sender, EventArgs e)
         {
             frmInventario verfrmInventario = new frmInventario();
@@ -150,6 +158,25 @@ namespace Presentacion
             frmAgregar verfrmAgregar = new frmAgregar();
             verfrmAgregar.Show();
             this.Hide();
+
+    //    private void BtnInventario_Click(object sender, EventArgs e)
+      //  {
+       //     frmInventario verfrmInventario = new frmInventario();
+     // //      verfrmInventario.Show();
+    //        this.Hide();
+    //    }
+
+      //  private void BtnAgregar_Click(object sender, EventArgs e)
+    //    {
+    //        frmAgregar verfrmAgregar = new frmAgregar();
+     //       verfrmAgregar.Show();
+     //       this.Hide();
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+
+
+
         }
 
     }

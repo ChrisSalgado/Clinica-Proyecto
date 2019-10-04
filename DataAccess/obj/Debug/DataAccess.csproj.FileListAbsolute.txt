@@ -14,3 +14,6 @@ C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\obj\Debug\DataAcces
 C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\DataAccess\obj\Debug\DataAccess.pdb
 
+C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\Common.dll
+C:\Users\DELL\Desktop\proyecto\Clinica\DataAccess\bin\Debug\Common.pdb
+

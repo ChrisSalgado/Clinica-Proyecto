@@ -19,3 +19,6 @@ C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Domain\obj\Debug\Domain.csproj
 C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Domain\obj\Debug\Domain.dll
 C:\Users\Ernesto Munoz\Documents\Clinica-Proyecto\Domain\obj\Debug\Domain.pdb
 
+C:\Users\DELL\Desktop\proyecto\Clinica\Domain\bin\Debug\Common.dll
+C:\Users\DELL\Desktop\proyecto\Clinica\Domain\bin\Debug\Common.pdb
+

@@ -48,6 +48,10 @@
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
 
+
+            this.panelChildForm.SuspendLayout();
+            
+
             this.button4 = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
@@ -183,7 +187,7 @@ this.panel1.Controls.Add(this.button4);
             this.btnAgregar.TabIndex = 4;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
+           
             // 
             // btnEditar
             // 
@@ -200,7 +204,7 @@ this.panel1.Controls.Add(this.button4);
             this.btnEditar.TabIndex = 1;
             this.btnEditar.Text = "EDITAR";
             this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.BtnEditar_Click);
+            
             // 
             // button4
             // 
@@ -233,7 +237,7 @@ this.panel1.Controls.Add(this.button4);
             this.btnInventario.TabIndex = 0;
             this.btnInventario.Text = "INVENTARIO";
             this.btnInventario.UseVisualStyleBackColor = true;
-            this.btnInventario.Click += new System.EventHandler(this.BtnInventario_Click);
+            
             // 
             // button3
             // 
@@ -295,13 +299,7 @@ this.panel1.Controls.Add(this.button4);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(153, 118);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(359, 212);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+           
 
 
             // button4
@@ -335,7 +333,7 @@ this.panel1.Controls.Add(this.button4);
             this.btnEditar.TabIndex = 1;
             this.btnEditar.Text = "EDITAR";
             this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.BtnEditar_Click);
+            
             // 
             // btnInventario
             // 
@@ -352,7 +350,7 @@ this.panel1.Controls.Add(this.button4);
             this.btnInventario.TabIndex = 0;
             this.btnInventario.Text = "INVENTARIO";
             this.btnInventario.UseVisualStyleBackColor = true;
-            this.btnInventario.Click += new System.EventHandler(this.BtnInventario_Click);
+            
             // 
             // panel2
             // 
